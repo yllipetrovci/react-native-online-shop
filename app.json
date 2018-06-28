@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Smartphone Shop",
+    "description": "This project is really great.",
+    "slug": "smartphoneshop",
+    "privacy": "public",
+    "sdkVersion": "28.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.altinukshini.altinukshini",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.altinukshini.altinukshini",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB9hpwTW19IK8Gjz9RAZVoTzAx09xOyQMs"
+        }
+      }
+    }
+  }
+}
